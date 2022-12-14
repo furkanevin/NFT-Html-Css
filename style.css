@@ -51,8 +51,8 @@ nav button {
     #2b86c5 100%
   );
 }
-/*! Header  */
-header {
+/*! Hero  */
+.hero {
   height: 460px;
   margin-top: 115px;
   display: flex;
