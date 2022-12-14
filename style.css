@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #110929;
+}
+/*! Nav */
+nav {
+  height: 120px;
+  width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 {
+  color: #ffffff;
+  font-size: 28px;
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+nav ul li a:hover {
+  color: #ff3cac;
+  text-shadow: 2px 2px 30px #ff3caace;
+  transition: all 0.3s;
+}
+nav button {
+  cursor: pointer;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 66px;
+  color: #ffffff;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+}
+/*! Header  */
+header {
+  width: 1270px;
+  height: 460px;
+
+  margin: 115px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.slogan {
+  display: flex;
+  width: 726px;
+  height: 270px;
+  flex-direction: column;
+}
+.slogan h1 {
+  color: #ffffff;
+  font-family: 'Inter';
+  font-size: 94px;
+  line-height: 90px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 94px;
+  line-height: 90px;
+  letter-spacing: -2px;
+}
+.slogan h1 span {
+  background: linear-gradient(112.62deg, #8d1cfe 29.4%, #0038ed 105.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.description {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  gap: 40px;
+}
+.description div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(112.62deg, #8d1cfe 29.4%, #0038ed 105.15%);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 10px;
+  transition: background 4s;
+  cursor: pointer;
+}
+.description div:hover {
+  background: linear-gradient(112.62deg, #0038ed 29.4%, #8d1cfe 105.15%);
+  transition: all 0.4s;
+}
+.description div p {
+  width: 99px;
+  height: 26px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.description p {
+  width: 420px;
+  color: #ffffff;
+  transition: all 0.4s;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.images {
+  width: 400px;
+  height: 400px;
+
+  margin-right: 40px;
+}
+.images img {
+  width: 100%;
+  height: 100%;
+}
+.datas {
+  display: flex;
+  gap: 20px;
+  color: #ffffff;
+  margin-left: 10px;
+  margin-top: 50px;
+  text-align: center;
+}
+.heading {
+  font-weight: 200;
+}
+.value {
+  font-weight: 700;
+  font-size: 20px;
+}
+/*! Main */
+main {
+}
+/*! Footer */
+footer {
+}
