@@ -5,10 +5,10 @@
   box-sizing: border-box;
   list-style: none;
 }
-
+/* #00ABB3  #3C4048 #B2B2B2 #EAEAEA */
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #110929;
+  background-color: #18191c;
   padding: 0 120px;
   overflow-x: hidden;
 }
@@ -76,9 +76,7 @@ nav button {
   letter-spacing: -2px;
 }
 .slogan h1 span {
-  background: linear-gradient(112.62deg, #8d1cfe 29.4%, #0038ed 105.15%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #00abb3;
 }
 .description {
   display: flex;
@@ -92,7 +90,7 @@ nav button {
   align-items: center;
   text-align: center;
   color: #ffffff;
-  background: linear-gradient(112.62deg, #8d1cfe 29.4%, #0038ed 105.15%);
+  background: linear-gradient(112deg, #8d1cfe 30%, #0038ed 100%);
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -101,7 +99,7 @@ nav button {
   cursor: pointer;
 }
 .description div:hover {
-  background: linear-gradient(112.62deg, #0038ed 29.4%, #8d1cfe 105.15%);
+  background: linear-gradient(112deg, #0038ed 30%, #8d1cfe 100%);
   transition: all 0.4s;
 }
 .description div p {
@@ -251,7 +249,7 @@ nav button {
   font-weight: 800;
   font-size: 136px;
   line-height: 146px;
-  background-color: #8d1cfe;
+  background-color: #00abb3;
   transform: rotate(-6deg);
   letter-spacing: 40px;
   color: #ffffff;
@@ -272,6 +270,7 @@ nav button {
   justify-content: space-between;
   min-height: 200px;
   margin-bottom: 100px;
+  gap: 20px;
 }
 .about-card {
   width: 400px;
@@ -302,4 +301,5 @@ footer {
   justify-content: space-around;
   color: #ffffff;
   padding: 150px;
+  gap: 90px;
 }
