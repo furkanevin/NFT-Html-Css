@@ -6,6 +6,6 @@
 <h1>Preview</h1>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/109925130/207847227-80b1d62b-e4d0-4de2-b582-38b5b0a8e210.png">
-
+<img src"https://user-images.githubusercontent.com/109925130/207864627-f3e375bd-c0c5-4d68-b9f3-8d197c607603.gif">
 
 </div>
